@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.profile_photo {
+    border-radius: 50%;
+}
