@@ -11,7 +11,7 @@ body {
     color: white;
     width: 70%;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 hr {
@@ -24,6 +24,22 @@ header {
     margin-top: 0.75em;
 }
 
+main {
+    padding: 1em;
+}
+
+footer {
+    padding: 1em;
+}
+
+footer div {
+    display: inline-block;
+}
+
+a:visited {
+    color: white;
+}
+
 .navbar {
     display: flex;
 }
@@ -34,40 +50,37 @@ header {
     margin: auto;
 }
 
-.navbar a {
-    color: white;
+.a_none_decoration {
     text-decoration: none;
+    color: white;
 }
 
 #name_brand {
     font-size: 2em;
     font-weight: 700;
+    text-decoration: none;
 }
 
-.navbar-items {
+.navbar_items {
     width: 40%;
     margin: auto;
 }
 
-.navbar-items ul {
+.navbar_items ul {
     display: flex;
     justify-content: space-around;
 }
 
-.navbar-items ul li {
+.li_none {
     display: inline-block;
     list-style: none;
-    font-size: 1.25em;
 }
 
-main {
-    padding: 1em;
+.navbar_items ul li {
+    font-size: 1em;
+    font-weight: 600;
 }
 
 #profile_photo {
     border-radius: 50%;
-}
-
-footer {
-    padding: 1em;
 }
