@@ -55,6 +55,11 @@ section h2 {
     font-size: 1.5rem;
 }
 
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media print {
     .no-print {
         display: none !important;
