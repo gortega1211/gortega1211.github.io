@@ -22,13 +22,13 @@
     flex: 1;
 }
 
-/*#projects article a {
+#projects article a {
     color: #00F;
 }
 
-#project article a:hover {
+#projects article a:hover {
     text-decoration: underline;
-} */
+}
 
 #projects article p {
     font-size: 0.75rem;
